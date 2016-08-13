@@ -7,6 +7,17 @@
 
 This is a back end plugin for Hiera that allows lookup to be sourced from HTTP queries.  The intent is to make this backend adaptable to allow you to query any data stored in systems with a RESTful API such as CouchDB or even a custom store with a web front-end
 
+
+### Installation
+
+Gem used by puppet server:
+
+    puppetserver gem install hiera-http
+    
+Gem used by hiera and puppet apply via the CLI:
+
+    /opt/puppetlabs/puppet/bin/gem install hiera-http
+
 ### Configuration
 
 The following is an example hiera.yaml configuration for use with hiera-http
